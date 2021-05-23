@@ -1,0 +1,37 @@
+site_name: Admin Documentation
+site_url: https://caspanb.github.io/docs/
+repo_name: CaspanB/caspanb.github.io
+site_author: CaspanB
+remote_branch: gh-pages
+edit_uri: ""
+theme:
+  name: material
+
+  icon:
+    repo: fontawesome/brands/git-alt
+
+  palette:
+    scheme: default
+    primary: "teal"
+    accent: "cyan"
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+  
+  language: en
+  #favicon: img/Logo.svg
+  
+  markdown_extensions:
+    - toc:
+        permalink: true
+
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.expand
+    - navigation.instant
+    - navigation.sections
+
+  extra_css:
+  - style.css
