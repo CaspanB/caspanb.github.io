@@ -29,3 +29,17 @@ Documentation for PHP (other languages): [https://www.php.net/docs.php](https://
 Documentation for phpmyadmin (English): [https://docs.phpmyadmin.net/en/latest/](https://docs.phpmyadmin.net/en/latest/) <br>
 Documentation for phpmyadmin (German): [https://docs.phpmyadmin.net/de/latest/](https://docs.phpmyadmin.net/de/latest/) <br>
 Documentation for phpmyadmin (other languages): [https://www.phpmyadmin.net/docs/](https://www.phpmyadmin.net/docs/) <br>
+
+###
+
+## Database
+
+| column name | description                                                                  | example                           |
+|-------------|------------------------------------------------------------------------------|-----------------------------------|
+| id          | internal id                                                                  | 0; 1; 10; 14                      |
+| theme       | topic of the text                                                            | War; Architechture                |
+| year        | which school year                                                            | 2020/2021                         |
+| author      | Name of the Author or anonymus                                               | anonymus; Max Mustermann          |
+| title       | Title of the final text                                                      | Evolution of the education System |
+| paragraph n | Content Paragraph n (n is the number of the paragraph, so the nth Paragraph) | 1; 7; 2 (starting at 1)           |
+| conclusion  | Summary of the text (normally the last paragraph)                            | -                                 |
