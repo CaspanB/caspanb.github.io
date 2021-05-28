@@ -11,9 +11,9 @@ To download the newest Version of xampp go to: [Xampp Download](https://www.apac
 
 To start you xampp Server open the xampp control panel and start the Apache and MySQL Server.
 
-<img src="../img/servers-offline.png">
+<img src="/img/servers-offline.png">
 
-<img src="../img/servers-started.png">
+<img src="/img/servers-started.png">
 
 To open your Website, open up your Browser and insert "localhost" or "127.0.0.1" as URL.
 
