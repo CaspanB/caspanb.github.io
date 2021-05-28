@@ -12,6 +12,10 @@ Grid with all the topics
 Grid with all the School Years
 <img src="img/outline-sorted-by-year.png">
 
+## Page for Admins to add new Topics, Texts, etc.
+Page for administration of the website without having to learn phpmyadmin and MySQL.
+<img src="img/outline-admin-page.png">
+
 ## Page with a Text
 Title <br>
 Author, Year, Topic <br>
@@ -25,7 +29,3 @@ Paragraph n <br>
 Images from Paragraph n (can also be at the side) <br>
 Conclusion <br>
 Audio File, if there is one <br>
-
-## Page for Admins to add new Topics, Texts, etc.
-Page for administration of the website without having to learn phpmyadmin and MySQL.
-<img src="img/outline-admin-page.png">
