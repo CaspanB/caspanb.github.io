@@ -1,5 +1,8 @@
 # Backend
 
+## Navigation
+<button type="button"><a href="index.html">Home</a></button><button type="button"><a href="1frontend.html">Frontend</a></button><button type="button"><a href="2backend.html">Backend</a></button>
+
 ## Installation and Usage of a Server that runs on your localhost
 
 You will need to install a Server for using PHP. One of these Servers that will run on your localhost is xampp.
