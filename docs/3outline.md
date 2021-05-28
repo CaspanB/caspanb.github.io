@@ -25,3 +25,7 @@ Paragraph n <br>
 Images from Paragraph n (can also be at the side) <br>
 Conclusion <br>
 Audio File, if there is one <br>
+
+## Page for Admins to add new Topics, Texts, etc.
+Page for administration of the website without having to learn phpmyadmin and MySQL.
+<img src="img/outline-admin-page.png">

@@ -7,8 +7,8 @@
 ## Languages
 <ul>
 <li>HTML</li>
-<li>CSS (through tailwind.css as PostCSS)</li>
-<li>PHP</li>
+<li>CSS</li>
+<li>PHP & MySQL</li>
 </ul>
 
 ## Overview Admin Page
