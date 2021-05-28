@@ -1,5 +1,5 @@
 # Frontend
-
+<!--
 ## CSS - Tailwind CSS
 
 Tailwind CSS is a utility-first CSS framework.
@@ -22,7 +22,7 @@ With this command we installed and built the **tailwind.css** file:
 npx tailwindcss-cli@latest build -o src/tailwind.css
 ```
 
-With the command 
+With the command
 ```
 npx tailwindcss-cli@latest build src/styles.css -o src/tailwind.css
 ```
@@ -33,5 +33,5 @@ This is useful if you want to have another stylesheet in addition to the Tailwin
 The changes in the files **postcss.config.js** and **tailwind.config.js** are also adopted in Tailwind when this command is executed
 <br>
 This is not done before!
-
+-->
 ## HTML
