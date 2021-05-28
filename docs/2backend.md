@@ -43,3 +43,4 @@ Documentation for phpmyadmin (other languages): [https://www.phpmyadmin.net/docs
 | title       | Title of the final text                                                      | Evolution of the education System |
 | paragraph n | Content Paragraph n (n is the number of the paragraph, so the nth Paragraph) | 1; 7; 2 (starting at 1)           |
 | conclusion  | Summary of the text (normally the last paragraph)                            | -                                 |
+| image n     | image and n is the number of the paragraph it is associated with             | 1; 4; 7                           |
