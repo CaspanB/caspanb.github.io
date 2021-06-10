@@ -38,15 +38,29 @@ Documentation for phpmyadmin (other languages): [https://www.phpmyadmin.net/docs
 
 ## Database
 
-| column name     | description                                                                  | example                           |
-|-----------------|------------------------------------------------------------------------------|-----------------------------------|
-| id              | internal id                                                                  | 0; 1; 10; 14                      |
-| theme           | topic of the text                                                            | War; Architechture                |
-| year            | which school year                                                            | 2020/2021                         |
-| author          | Name of the Author or anonymus                                               | anonymus; Max Mustermann          |
-| title           | Title of the final text                                                      | Evolution of the education System |
-| introduction    | Summary of the text (normally the last paragraph)                            | -                                 |
-| paragraph n     | Content Paragraph n (n is the number of the paragraph, so the nth Paragraph) | 1; 7; 2 (starting at 1)           |
-| conclusion      | Summary of the text (normally the last paragraph)                            | -                                 |
-| image n         | image and n is the number of the paragraph it is associated with             | 1; 4; 7                           |
-| audio file path | path for an audio file, if there is one                                      | audio/maxmusterman2020.ogg; null  |
+### Topics Table
+
+| column name   | Typ       |
+|---------------|-----------|
+| id            | int(5)    |
+| topic name    | varchar() |
+| creation year | int(4)    |
+
+<!-- 
+Topics Table:
+	id, topic name, creation year
+id: Primary, Auto Increment, starts at 1 not 0
+topic name: Unique
+-->
+
+### Text Table
+
+| column name          | description                                                                     | example                           |
+|----------------------|---------------------------------------------------------------------------------|-----------------------------------|
+| id                   | internal id                                                                     | 0; 1; 10; 14                      |
+| topic name           | topic of the text                                                               | War; Architechture                |
+| year                 | which school year                                                               | 2020/2021 would be 2020           |
+| author               | Name of the Author or anonymus                                                  | anonymus; Max Mustermann          |
+| title                | Title of the final text                                                         | Evolution of the education System |
+| binary data          | Holds the Binary Data from the Text                                             | -                                 |
+| images               | image ids that are seperated with ';' and that can be found in the table images | 1; 4; 7                           |
