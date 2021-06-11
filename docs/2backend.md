@@ -36,14 +36,14 @@ Documentation for phpmyadmin (other languages): [https://www.phpmyadmin.net/docs
 
 ###
 
-## Database
+## Database - Table Structure
 
 ### Topics Table
 
 | column name   | Typ       |
 |---------------|-----------|
 | id            | int(5)    |
-| topic name    | varchar() |
+| topic_name    | varchar() |
 | creation year | int(4)    |
 
 <!-- 
@@ -58,7 +58,7 @@ topic name: Unique
 | column name          | description                                                                     | example                           |
 |----------------------|---------------------------------------------------------------------------------|-----------------------------------|
 | id                   | internal id                                                                     | 0; 1; 10; 14                      |
-| topic name           | topic of the text                                                               | War; Architechture                |
+| topic_name           | topic of the text                                                               | War; Architechture                |
 | year                 | which school year                                                               | 2020/2021 would be 2020           |
 | author               | Name of the Author or anonymus                                                  | anonymus; Max Mustermann          |
 | title                | Title of the final text                                                         | Evolution of the education System |
